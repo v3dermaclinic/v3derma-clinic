@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Blogs | V3 Derma Clinic – Skin, Hair & Wellness Tips</title>
+<meta name="description" content="Read expert dermatology blogs from V3 Derma Clinic — tips on acne, hair care, pigmentation, laser treatments, skincare routines and more.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="top-bar">
+  <span>📞 <a href="tel:8897489595">8897489595</a></span>
+  <span>✉️ <a href="mailto:customer-care@v3dermaclinic.com">customer-care@v3dermaclinic.com</a></span>
+  <span>📍 Champapet, Hyderabad</span>
+  <span>🕐 Mon–Sat: 5–9 PM | Sun: 3–6 PM</span>
+</div>
+
+<!-- Header -->
+<header>
+  <div class="nav">
+    <a href="index.html" class="logo"><img src="images/v3logo.png" alt="V3 Derma Clinic" class="logo-img"><span class="logo-text"><span class="brand-v3">V3</span> <span class="brand-derma">Derma Clinic</span></span></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+    <label for="nav-toggle" class="nav-toggle-label">☰</label>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="blogs.html" class="active">Blogs</a>
+      <a href="contact.html">Contact</a>
+      <a href="tel:8897489595" class="nav-cta">Book Appointment</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Page Hero -->
+<section class="page-hero">
+  <h1>Skin &amp; Hair Care Blog</h1>
+  <p>Expert Tips, Insights &amp; Advice from Our Dermatologists</p>
+</section>
+
+<!-- Blog Filter Tags -->
+<section class="section blog-filters">
+  <div class="filter-tags">
+    <button class="filter-tag active" onclick="filterBlogs('all')">All</button>
+    <button class="filter-tag" onclick="filterBlogs('skin')">Skin Care</button>
+    <button class="filter-tag" onclick="filterBlogs('hair')">Hair Care</button>
+    <button class="filter-tag" onclick="filterBlogs('acne')">Acne</button>
+    <button class="filter-tag" onclick="filterBlogs('laser')">Laser</button>
+    <button class="filter-tag" onclick="filterBlogs('tips')">Tips &amp; Myths</button>
+  </div>
+</section>
+
+<!-- Blog Posts Grid -->
+<section class="section blog-section">
+  <div class="blog-grid">
+
+    <!-- Blog 1 -->
+    <article class="blog-card" data-category="acne skin">
+      <div class="blog-card-img">🔬</div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="blog-category">Acne</span>
+          <span class="blog-date">April 10, 2026</span>
+        </div>
+        <h3>Understanding the Root Causes of Recurring Acne</h3>
+        <p>Recurring acne is a frustrating skin concern that keeps coming back even after treatment. Learn about the root causes — from hormonal changes and diet to skincare mistakes — and how to break the cycle with the right approach.</p>
+        <a href="blogs/recurring-acne-causes.html" class="blog-read-more">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog 2 -->
+    <article class="blog-card" data-category="skin tips">
+      <div class="blog-card-img">🧴</div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="blog-category">Skin Care</span>
+          <span class="blog-date">April 5, 2026</span>
+        </div>
+        <h3>Morning vs Night Skincare Routine: What Your Skin Really Needs</h3>
+        <p>Your morning routine should protect, while your night routine should repair. Learn the key differences, the right order of products, and which ingredients work best for AM vs PM application.</p>
+        <a href="blogs/morning-vs-night-skincare.html" class="blog-read-more">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog 3 -->
+    <article class="blog-card" data-category="hair">
+      <div class="blog-card-img">💇</div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="blog-category">Hair Care</span>
+          <span class="blog-date">March 28, 2026</span>
+        </div>
+        <h3>Hair Shedding vs Hair Loss: What You Need to Know</h3>
+        <p>Losing 50–100 hairs daily is normal shedding. But when does it become hair loss? Understand the difference, warning signs, and when you should consult a dermatologist for treatment.</p>
+        <a href="blogs/hair-shedding-vs-hair-loss.html" class="blog-read-more">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog 4 -->
+    <article class="blog-card" data-category="skin">
+      <div class="blog-card-img">🌞</div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="blog-category">Skin Care</span>
+          <span class="blog-date">March 22, 2026</span>
+        </div>
+        <h3>Melasma: Causes, Symptoms &amp; Treatment Options</h3>
+        <p>Melasma causes brown or grey-brown patches on the face, especially on cheeks, forehead and upper lip. Learn about hormonal triggers, sun exposure and the most effective treatments available.</p>
+        <a href="blogs/melasma-causes-treatment.html" class="blog-read-more">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog 5 -->
+    <article class="blog-card" data-category="laser">
+      <div class="blog-card-img">✨</div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="blog-category">Laser</span>
+          <span class="blog-date">March 15, 2026</span>
+        </div>
+        <h3>Laser Treatments in Dermatology: Benefits, Risks &amp; What to Expect</h3>
+        <p>From scar removal to pigmentation correction, laser treatments have transformed skincare. Learn about different types of lasers, what happens during a session, and how to care for your skin afterward.</p>
+        <a href="blogs/laser-treatments-dermatology.html" class="blog-read-more">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog 6 -->
+    <article class="blog-card" data-category="tips">
+      <div class="blog-card-img">💡</div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="blog-category">Tips &amp; Myths</span>
+          <span class="blog-date">March 8, 2026</span>
+        </div>
+        <h3>Everyday Skincare Myths That Harm Your Skin Barrier</h3>
+        <p>Using lemon on skin? Over-exfoliating? Skipping sunscreen on cloudy days? These common myths can damage your skin barrier. Here are the facts and how to protect your skin the right way.</p>
+        <a href="blogs/skincare-myths.html" class="blog-read-more">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog 7 -->
+    <article class="blog-card" data-category="tips skin">
+      <div class="blog-card-img">😰</div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="blog-category">Tips</span>
+          <span class="blog-date">February 28, 2026</span>
+        </div>
+        <h3>How Stress Affects Your Skin – And How to Manage It</h3>
+        <p>Stress triggers cortisol production which can cause acne breakouts, premature aging and even conditions like eczema and psoriasis. Here are practical tips to manage stress-related skin issues.</p>
+        <a href="blogs/stress-affects-skin.html" class="blog-read-more">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog 8 -->
+    <article class="blog-card" data-category="skin tips">
+      <div class="blog-card-img">🧪</div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="blog-category">Skin Care</span>
+          <span class="blog-date">February 20, 2026</span>
+        </div>
+        <h3>Best Ingredients for Anti-Aging: Retinol, Vitamin C &amp; Hyaluronic Acid</h3>
+        <p>These three powerhouse ingredients are clinically proven to fight signs of aging. Learn the science behind each, how to use them correctly, and which combinations work best for your skin type.</p>
+        <a href="blogs/anti-aging-ingredients.html" class="blog-read-more">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog 9 -->
+    <article class="blog-card" data-category="hair">
+      <div class="blog-card-img">🧬</div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="blog-category">Hair Care</span>
+          <span class="blog-date">February 12, 2026</span>
+        </div>
+        <h3>PRP Hair Therapy: How It Works and What Results to Expect</h3>
+        <p>PRP (Platelet-Rich Plasma) therapy uses your own blood's growth factors to stimulate hair follicles. Understand the procedure, ideal candidates, number of sessions needed and realistic results timeline.</p>
+        <a href="blogs/prp-hair-therapy.html" class="blog-read-more">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog 10 -->
+    <article class="blog-card" data-category="acne skin">
+      <div class="blog-card-img">💊</div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="blog-category">Acne</span>
+          <span class="blog-date">February 5, 2026</span>
+        </div>
+        <h3>Chemical Peels for Acne Scars: Types, Process &amp; Results</h3>
+        <p>Chemical peels can significantly improve acne scars by removing damaged skin layers. Learn about glycolic, salicylic and TCA peels — which type is right for your scars and what to expect during recovery.</p>
+        <a href="blogs/chemical-peels-acne-scars.html" class="blog-read-more">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog 11 -->
+    <article class="blog-card" data-category="skin">
+      <div class="blog-card-img">🩹</div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="blog-category">Skin Care</span>
+          <span class="blog-date">January 28, 2026</span>
+        </div>
+        <h3>Warts: Types, Causes &amp; Safe Removal Options</h3>
+        <p>Warts are caused by HPV and can appear on hands, feet and face. Learn about common, plantar and flat warts, and the safest professional removal options including cryotherapy and electrocautery.</p>
+        <a href="blogs/warts-types-removal.html" class="blog-read-more">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog 12 -->
+    <article class="blog-card" data-category="skin laser">
+      <div class="blog-card-img">🌟</div>
+      <div class="blog-card-body">
+        <div class="blog-meta">
+          <span class="blog-category">Skin Care</span>
+          <span class="blog-date">January 20, 2026</span>
+        </div>
+        <h3>Advanced Treatments for Dull &amp; Tired Skin</h3>
+        <p>From HydraFacials to microneedling and laser resurfacing, modern dermatology offers effective solutions for dull, tired-looking skin. Discover which treatment suits your skin type and lifestyle.</p>
+        <a href="blogs/dull-tired-skin-treatments.html" class="blog-read-more">Read More →</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-banner">
+  <h2>Have a Skin or Hair Concern?</h2>
+  <p>Consult our expert dermatologist for personalised advice and treatment</p>
+  <div class="hero-actions">
+    <a class="btn" href="tel:8897489595">📞 Call 8897489595</a>
+    <a class="btn outline" href="https://wa.me/918897489595?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20V3%20Derma%20Clinic">💬 WhatsApp Us</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h3><span class="brand-v3">V3</span> <span class="brand-derma">Derma Clinic</span></h3>
+      <p>Your trusted partner for comprehensive skin, hair and laser treatments in Champapet, Hyderabad.</p>
+    </div>
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="services.html#skin">Skin Treatments</a></li>
+        <li><a href="services.html#hair">Hair Treatments</a></li>
+        <li><a href="services.html#laser">Laser Treatments</a></li>
+        <li><a href="services.html#cosmetic">Cosmetic Procedures</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <p>📞 <a href="tel:8897489595">8897489595</a></p>
+      <p>✉️ <a href="mailto:customer-care@v3dermaclinic.com">customer-care@v3dermaclinic.com</a></p>
+      <p>📍 Champapet, Hyderabad</p>
+      <p>🕐 Mon–Sat: 5–9 PM | Sun: 3–6 PM</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 <span class="brand-v3">V3</span> <span class="brand-derma">Derma Clinic</span>. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- Floating Contact Buttons -->
+<div class="floating-btns">
+  <a href="https://wa.me/918897489595?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20V3%20Derma%20Clinic" class="whatsapp-float" aria-label="Chat on WhatsApp">💬</a>
+  <button type="button" class="chat-float" aria-label="Live Chat" onclick="openChat()">🗨️</button>
+</div>
+
+<script>
+function openChat(){
+  window.open('https://conversations.godaddy.com/conversations/b2d90d43-e6fc-42be-80b9-e693f4d042e0','V3DermaChat','width=420,height=600,scrollbars=yes,resizable=yes');
+}
+function filterBlogs(cat){
+  var cards=document.querySelectorAll('.blog-card');
+  var tags=document.querySelectorAll('.filter-tag');
+  tags.forEach(function(t){t.classList.remove('active')});
+  event.target.classList.add('active');
+  cards.forEach(function(c){
+    if(cat==='all'||c.getAttribute('data-category').indexOf(cat)!==-1){
+      c.style.display='';
+    }else{
+      c.style.display='none';
+    }
+  });
+}
+</script>
+
+</body>
+</html>
