@@ -479,6 +479,50 @@ footer{background:var(--primary-dark);color:#fff;padding:50px 20px 0}
 .blog-nav a{color:var(--primary);font-weight:600;font-size:.95rem;transition:var(--transition)}
 .blog-nav a:hover{color:var(--accent)}
 
+/* ===== Review Builder ===== */
+.review-builder{max-width:620px;margin:0 auto}
+.review-intro{text-align:center;color:var(--text-light);font-size:1.05rem;margin-bottom:30px}
+.field-note{font-size:.82rem;color:var(--text-light);margin-top:6px}
+.review-actions{display:flex;gap:12px;margin-top:6px}
+.review-actions .btn{flex:1;text-align:center;border:none}
+.btn.secondary-btn{background:#fff;color:var(--primary);border:2px solid var(--primary)}
+.btn.secondary-btn:hover{background:var(--primary-light);color:var(--primary)}
+.compliance-note{background:var(--primary-light);border-radius:8px;padding:14px 18px;font-size:.85rem;color:var(--text);margin-top:18px;line-height:1.6}
+@media(max-width:480px){.review-actions{flex-direction:column}}
+
+/* ===== FAQ ===== */
+.faq-list{max-width:800px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+.faq-item{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:0 22px;
+  transition:var(--transition);
+}
+.faq-item[open]{border-color:var(--accent);box-shadow:var(--shadow)}
+.faq-item summary{
+  list-style:none;
+  cursor:pointer;
+  font-weight:600;
+  color:var(--primary);
+  padding:18px 30px 18px 0;
+  position:relative;
+  font-size:1rem;
+}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{
+  content:'+';
+  position:absolute;
+  right:0;top:50%;
+  transform:translateY(-50%);
+  font-size:1.4rem;
+  font-weight:400;
+  color:var(--accent);
+  transition:var(--transition);
+}
+.faq-item[open] summary::after{content:'\2212'}
+.faq-item p{padding:0 0 20px;color:var(--text-light);font-size:.95rem;line-height:1.7}
+
 /* ===== Responsive ===== */
 @media(max-width:1024px){
   .speciality-grid,.why-grid,.services-grid,.testimonial-grid,.blog-grid{grid-template-columns:repeat(2,1fr)}
