@@ -302,6 +302,7 @@ nav a:hover,nav a.active{color:var(--primary);background:var(--primary-light)}
 .doctor-profile{max-width:800px;margin:0 auto}
 .doctor-info h3{font-size:1.3rem;color:var(--primary);margin-bottom:16px;text-align:center}
 .doctor-info > p{text-align:center;color:var(--text-light);font-size:1.02rem;margin-bottom:28px}
+.doctor-role{text-align:center;color:var(--accent)!important;font-weight:600;font-size:1rem!important;margin-top:-8px;margin-bottom:22px!important}
 .doctor-highlights{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 .highlight{
   background:#fff;
