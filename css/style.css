@@ -405,6 +405,19 @@ footer{background:var(--primary-dark);color:#fff;padding:50px 20px 0}
 .footer-col a:hover{opacity:1;color:var(--gold)}
 .footer-col ul{display:flex;flex-direction:column;gap:8px}
 .footer-col li a{font-size:.9rem}
+.footer-social{display:flex;gap:14px;margin-top:18px}
+.footer-social a{
+  width:48px;height:48px;
+  border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  background:#fff;opacity:1;
+  box-shadow:0 2px 8px rgba(0,0,0,.2);
+  transition:var(--transition);
+}
+.footer-social a.ig{color:#E4405F}
+.footer-social a.yt{color:#FF0000}
+.footer-social a:hover{transform:translateY(-3px) scale(1.08);box-shadow:0 6px 18px rgba(0,0,0,.3)}
+.footer-social svg{width:26px;height:26px;display:block}
 .footer-bottom{
   border-top:1px solid rgba(255,255,255,.15);
   text-align:center;
