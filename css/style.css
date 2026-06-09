@@ -504,6 +504,23 @@ footer{background:var(--primary-dark);color:#fff;padding:50px 20px 0}
 .compliance-note{background:var(--primary-light);border-radius:8px;padding:14px 18px;font-size:.85rem;color:var(--text);margin-top:18px;line-height:1.6}
 @media(max-width:480px){.review-actions{flex-direction:column}}
 
+/* ===== Areas We Serve ===== */
+.areas-section{text-align:center}
+.areas-grid{
+  display:flex;flex-wrap:wrap;justify-content:center;gap:12px;
+  max-width:820px;margin:10px auto 26px;
+}
+.areas-grid li{
+  background:var(--primary-light);
+  color:var(--primary);
+  font-weight:600;
+  font-size:.92rem;
+  padding:10px 20px;
+  border-radius:25px;
+  border:1px solid var(--border);
+}
+.areas-note{max-width:680px;margin:0 auto;color:var(--text-light);font-size:1rem}
+
 /* ===== FAQ ===== */
 .faq-list{max-width:800px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
 .faq-item{

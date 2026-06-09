@@ -28,6 +28,27 @@
 - [Contact](https://v3dermaclinic.com/contact.html): Address, phone, hours, appointment form and map
 - [Blog](https://v3dermaclinic.com/blogs.html): Dermatologist-written articles on skin and hair care
 
+## Treatment pages (Champapet, Hyderabad)
+- [All Treatments hub](https://v3dermaclinic.com/treatments/)
+- [Laser Hair Removal in Champapet](https://v3dermaclinic.com/treatments/laser-hair-removal-champapet.html)
+- [Acne & Acne Scar Treatment in Champapet](https://v3dermaclinic.com/treatments/acne-treatment-champapet.html)
+- [PRP Hair Therapy in Champapet](https://v3dermaclinic.com/treatments/prp-hair-therapy-champapet.html)
+- [Pigmentation & Melasma Treatment in Champapet](https://v3dermaclinic.com/treatments/pigmentation-melasma-treatment-champapet.html)
+- [Chemical Peels in Champapet](https://v3dermaclinic.com/treatments/chemical-peels-champapet.html)
+- [Hair Fall Treatment in Champapet](https://v3dermaclinic.com/treatments/hair-fall-treatment-champapet.html)
+- [Anti-Aging Treatment in Champapet](https://v3dermaclinic.com/treatments/anti-aging-treatment-champapet.html)
+- [Laser Tattoo Removal in Champapet](https://v3dermaclinic.com/treatments/tattoo-removal-champapet.html)
+- [HydraFacial in Champapet](https://v3dermaclinic.com/treatments/hydrafacial-champapet.html)
+- [Dermal Fillers in Champapet](https://v3dermaclinic.com/treatments/dermal-fillers-champapet.html)
+- [Psoriasis Treatment in Champapet](https://v3dermaclinic.com/treatments/psoriasis-treatment-champapet.html)
+- [Vitiligo Treatment in Champapet](https://v3dermaclinic.com/treatments/vitiligo-treatment-champapet.html)
+- [Fungal & Skin Infection Treatment in Champapet](https://v3dermaclinic.com/treatments/fungal-infection-treatment-champapet.html)
+- [Eczema & Dermatitis Treatment in Champapet](https://v3dermaclinic.com/treatments/eczema-dermatitis-treatment-champapet.html)
+- [Wart & Mole Removal in Champapet](https://v3dermaclinic.com/treatments/wart-mole-removal-champapet.html)
+- [Dandruff & Scalp Treatment in Champapet](https://v3dermaclinic.com/treatments/dandruff-scalp-treatment-champapet.html)
+- [Laser Scar Removal in Champapet](https://v3dermaclinic.com/treatments/laser-scar-removal-champapet.html)
+- [Skin Tag Removal in Champapet](https://v3dermaclinic.com/treatments/skin-tag-removal-champapet.html)
+
 ## Blog articles
 - [Understanding the Root Causes of Recurring Acne](https://v3dermaclinic.com/blogs/recurring-acne-causes.html)
 - [Morning vs Night Skincare Routine](https://v3dermaclinic.com/blogs/morning-vs-night-skincare.html)
@@ -43,5 +64,5 @@
 - [Advanced Treatments for Dull & Tired Skin](https://v3dermaclinic.com/blogs/dull-tired-skin-treatments.html)
 
 ## Notes
-- Service area: Champapet, Hyderabad and surrounding areas.
+- Service area: Champapet, Green Park Colony, Saroornagar, BN Reddy Nagar, Santoshnagar, Karmanghat, Kothapet, Dilsukhnagar, Lalitha Nagar, Jillelaguda and surrounding areas of Hyderabad.
 - For medical advice, patients should book a consultation; blog content is educational and not a substitute for professional diagnosis.
