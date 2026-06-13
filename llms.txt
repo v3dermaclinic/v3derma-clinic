@@ -25,6 +25,7 @@
 ## Pages
 - [Home](https://v3dermaclinic.com/index.html): Overview, specialities, popular treatments, FAQs
 - [About](https://v3dermaclinic.com/about.html): Clinic story, doctor profile, mission and patient-care journey
+- [Dr. O Lakshmi Jhansi](https://v3dermaclinic.com/dr-o-lakshmi-jhansi.html): Profile of the consultant dermatologist — qualifications, specialisations and conditions treated
 - [Services](https://v3dermaclinic.com/services.html): Full list of skin, hair, laser and cosmetic treatments
 - [Contact](https://v3dermaclinic.com/contact.html): Address, phone, hours, appointment form and map
 - [Blog](https://v3dermaclinic.com/blogs.html): Dermatologist-written articles on skin and hair care
