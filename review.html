@@ -73,15 +73,25 @@
       <div class="form-group">
         <label for="treatment">Treatment Taken</label>
         <select id="treatment">
-          <option>Acne Treatment</option>
-          <option>Skin Allergy Treatment</option>
+          <option>Acne &amp; Acne Scar Treatment</option>
+          <option>Pigmentation / Melasma Treatment</option>
           <option>Laser Hair Reduction</option>
           <option>PRP Hair Therapy</option>
-          <option>Pigmentation / Melasma Treatment</option>
+          <option>Hair Fall Treatment</option>
           <option>Chemical Peel</option>
-          <option>Fungal Infection Treatment</option>
-          <option>Skin Tag / Wart Removal</option>
-          <option>Cosmetic Dermatology</option>
+          <option>Anti-Aging Treatment</option>
+          <option>HydraFacial</option>
+          <option>Dermal Fillers</option>
+          <option>Laser Scar Removal</option>
+          <option>Tattoo Removal</option>
+          <option>Psoriasis Treatment</option>
+          <option>Vitiligo Treatment</option>
+          <option>Eczema / Dermatitis Treatment</option>
+          <option>Fungal / Skin Infection Treatment</option>
+          <option>Dandruff / Scalp Treatment</option>
+          <option>Wart / Mole / Skin Tag Removal</option>
+          <option>Skin Allergy Treatment</option>
+          <option>General Skin Consultation</option>
         </select>
       </div>
 
@@ -95,11 +105,16 @@
       <div class="form-group">
         <label for="experience">Your Experience</label>
         <select id="experience">
-          <option>Very satisfied with the treatment results</option>
-          <option>The doctor explained my condition clearly</option>
-          <option>Professional and caring consultation</option>
-          <option>Clean clinic with polite, helpful staff</option>
-          <option>Clear explanation and effective results</option>
+          <option>The doctor took time to understand my concern and explained everything clearly</option>
+          <option>I'm really happy with the improvement in my skin</option>
+          <option>I noticed a clear difference after just a few sessions</option>
+          <option>The consultation was professional and the staff were warm and friendly</option>
+          <option>The clinic is clean, hygienic and well maintained</option>
+          <option>She recommended only what I actually needed, with no unnecessary treatments</option>
+          <option>The treatment was comfortable and the results came faster than I expected</option>
+          <option>My hair fall has reduced and I can see new growth</option>
+          <option>My skin looks clearer and brighter than before</option>
+          <option>Pricing was reasonable and everything was explained upfront</option>
         </select>
       </div>
 
@@ -115,7 +130,7 @@
       <button type="button" class="btn form-btn" onclick="generateReview()">✨ Generate Review Draft</button>
 
       <div class="form-group">
-        <label for="reviewText">Your Review Draft <span style="font-weight:400;color:var(--text-light)">(edit it freely — make it your own)</span></label>
+        <label for="reviewText">Your Review Draft <span style="font-weight:400;color:var(--text-light)">(click Generate again for a different version — then edit freely to make it your own)</span></label>
         <textarea id="reviewText" rows="6" placeholder="Click &quot;Generate Review Draft&quot; above, then edit the text to match your real experience..."></textarea>
       </div>
 
@@ -191,17 +206,95 @@
 <script>
 var GOOGLE_REVIEW_URL = "https://g.page/r/CRl_0iqeUH9pEBM/review";
 
+// Remember the last index chosen per pool so we never repeat the same line back-to-back
+var lastPick = {};
+function pick(arr, key) {
+  if (arr.length < 2) return arr[0];
+  var i, guard = 0;
+  do { i = Math.floor(Math.random() * arr.length); guard++; } while (i === lastPick[key] && guard < 12);
+  lastPick[key] = i;
+  return arr[i];
+}
+
 function generateReview() {
   var doctor = document.getElementById('doctor').value;
-  var treatment = document.getElementById('treatment').value;
+  var t = document.getElementById('treatment').value.toLowerCase().replace(' / ', '/');
   var location = document.getElementById('location').value;
   var experience = document.getElementById('experience').value;
   var rating = document.getElementById('rating').value;
+  var topRated = rating.indexOf('⭐⭐⭐⭐⭐') === 0; // 5-star tone vs 4-star tone
 
-  document.getElementById('reviewText').value =
-    "I visited " + location + " and consulted " + doctor + " for " + treatment + ".\n" +
-    experience + ". The doctor was very professional and the staff was supportive.\n" +
-    "Overall, I had a positive experience at V3 Derma Clinic. " + rating;
+  var openings5 = [
+    "I had a really good experience at " + location + ". I went to " + doctor + " for my " + t + " and I'm genuinely happy with the results.",
+    "Visited V3 Derma Clinic in Champapet for my " + t + ". " + doctor + " was excellent and I'm very satisfied with how it turned out.",
+    "So glad I chose V3 Derma Clinic for my " + t + ". " + doctor + " really knows her work and made me feel comfortable throughout.",
+    "I consulted " + doctor + " for my " + t + ", and honestly the whole experience was smooth, professional and reassuring.",
+    "Took my " + t + " at V3 Derma Clinic and the results have been even better than I expected.",
+    "One of the best decisions I made was visiting " + doctor + " for my " + t + ". Really impressed with the care here.",
+    "I'd been struggling with my " + t + " for a while, and " + doctor + " at V3 Derma Clinic finally sorted it out for me.",
+    "Came to V3 Derma Clinic for my " + t + " on a friend's recommendation, and I'm so glad I did.",
+    "Excellent clinic. I went to " + doctor + " for my " + t + " and the difference is clearly visible.",
+    "My experience with " + doctor + " for my " + t + " was fantastic from start to finish.",
+    "Really happy I found V3 Derma Clinic. " + doctor + " handled my " + t + " with so much care and patience.",
+    "Got my " + t + " done at V3 Derma Clinic, Champapet, and I couldn't have asked for better results."
+  ];
+  var openings4 = [
+    "Had a good experience at V3 Derma Clinic. I visited " + doctor + " for my " + t + " and I'm happy with the results so far.",
+    "Went to V3 Derma Clinic in Champapet for my " + t + ". " + doctor + " was professional and the treatment is working well for me.",
+    "Consulted " + doctor + " for my " + t + " — overall a good experience and I can already see an improvement.",
+    "Visited for my " + t + " and came away satisfied. " + doctor + " explained everything clearly.",
+    "Decent experience at V3 Derma Clinic for my " + t + ". " + doctor + " was helpful and the results are coming along.",
+    "Got my " + t + " done here and I'm fairly happy with how it's progressing."
+  ];
+  var details = [
+    "The clinic is clean and the staff are polite",
+    "Getting an appointment was easy and there wasn't much waiting",
+    "She explained the treatment plan and what to expect at every step",
+    "There was no unnecessary upselling, which I really appreciated",
+    "It's easy to find, right beside HDFC Bank in Champapet",
+    "I felt comfortable and well looked after the whole time",
+    "The doctor was patient and answered all of my questions",
+    "Hygiene and cleanliness at the clinic were really good",
+    "The consultation didn't feel rushed at all",
+    "Pricing was reasonable and everything was explained upfront",
+    "The staff even followed up to check on my progress",
+    "The whole process was hassle-free and well organised"
+  ];
+  var closings5 = [
+    "Highly recommend V3 Derma Clinic to anyone in Champapet looking for a good dermatologist.",
+    "Would definitely recommend " + doctor + ". Thank you so much!",
+    "If you're looking for a skin or hair clinic near Champapet, this is the place to go.",
+    "Very happy overall and will be going back. Thank you, V3 Derma Clinic!",
+    "Strongly recommended for anyone with skin or hair concerns in the Champapet area.",
+    "Couldn't be happier with the results. Thank you, " + doctor + "!",
+    "This is my go-to dermatology clinic in Champapet now.",
+    "Would absolutely recommend to family and friends.",
+    "Truly grateful for the care I received here. Highly recommended.",
+    "One of the best skin and hair clinics I've visited in Hyderabad. Thank you!"
+  ];
+  var closings4 = [
+    "Would recommend V3 Derma Clinic for skin and hair concerns.",
+    "Good experience overall and I'd recommend giving them a try.",
+    "Happy with the visit and I'd go back again.",
+    "Worth a visit if you have skin or hair issues in Champapet.",
+    "Overall a positive experience and I'd recommend it.",
+    "Satisfied with the care and would consider coming back."
+  ];
+
+  var opening = topRated ? pick(openings5, 'open') : pick(openings4, 'open');
+  var closing = topRated ? pick(closings5, 'close') : pick(closings4, 'close');
+
+  var parts = [opening, experience + ".", pick(details, 'd1') + "."];
+  // ~40% of the time add a second, different detail for more natural variation
+  if (Math.random() < 0.4) {
+    var d2;
+    var guard = 0;
+    do { d2 = pick(details, 'd2'); guard++; } while (d2 + "." === parts[2] && guard < 12);
+    parts.push(d2 + ".");
+  }
+  parts.push(closing);
+
+  document.getElementById('reviewText').value = parts.join(" ");
 }
 
 function copyReview() {
