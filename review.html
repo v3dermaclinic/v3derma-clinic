@@ -115,6 +115,16 @@
           <option>My hair fall has reduced and I can see new growth</option>
           <option>My skin looks clearer and brighter than before</option>
           <option>Pricing was reasonable and everything was explained upfront</option>
+          <option>The doctor was honest and never pushed unnecessary products</option>
+          <option>My acne has cleared up and my confidence is back</option>
+          <option>The whole team made me feel at ease throughout</option>
+          <option>I finally found a dermatologist I can trust</option>
+          <option>The results have been even better than I hoped for</option>
+          <option>My skin looks healthier and natural, not overdone</option>
+          <option>Booking was easy and there was barely any waiting</option>
+          <option>The follow-up care and advice were excellent</option>
+          <option>The doctor patiently answered every question I had</option>
+          <option>Genuinely effective treatment — worth every rupee</option>
         </select>
       </div>
 
@@ -236,7 +246,14 @@ function generateReview() {
     "Excellent clinic. I went to " + doctor + " for my " + t + " and the difference is clearly visible.",
     "My experience with " + doctor + " for my " + t + " was fantastic from start to finish.",
     "Really happy I found V3 Derma Clinic. " + doctor + " handled my " + t + " with so much care and patience.",
-    "Got my " + t + " done at V3 Derma Clinic, Champapet, and I couldn't have asked for better results."
+    "Got my " + t + " done at V3 Derma Clinic, Champapet, and I couldn't have asked for better results.",
+    "Thank you " + doctor + " and team! My " + t + " has improved so much and I feel far more confident now.",
+    "Such a professional and caring clinic — my " + t + " was handled really well by " + doctor + ".",
+    "I'm so pleased with my " + t + " results at V3 Derma Clinic. Skilled, friendly and honest team.",
+    "Chose V3 Derma Clinic for my " + t + " after a lot of research, and it was absolutely the right decision.",
+    "From consultation to treatment for my " + t + ", everything was top class at V3 Derma Clinic.",
+    "Genuinely the best dermatology experience I've had — " + doctor + " treated my " + t + " brilliantly.",
+    "After trying other places for my " + t + ", I finally got real results with " + doctor + " here."
   ];
   var openings4 = [
     "Had a good experience at V3 Derma Clinic. I visited " + doctor + " for my " + t + " and I'm happy with the results so far.",
@@ -244,7 +261,9 @@ function generateReview() {
     "Consulted " + doctor + " for my " + t + " — overall a good experience and I can already see an improvement.",
     "Visited for my " + t + " and came away satisfied. " + doctor + " explained everything clearly.",
     "Decent experience at V3 Derma Clinic for my " + t + ". " + doctor + " was helpful and the results are coming along.",
-    "Got my " + t + " done here and I'm fairly happy with how it's progressing."
+    "Got my " + t + " done here and I'm fairly happy with how it's progressing.",
+    "Reasonably good experience for my " + t + " — " + doctor + " was knowledgeable and clear.",
+    "My " + t + " is improving steadily after starting treatment at V3 Derma Clinic."
   ];
   var details = [
     "The clinic is clean and the staff are polite",
@@ -258,7 +277,17 @@ function generateReview() {
     "The consultation didn't feel rushed at all",
     "Pricing was reasonable and everything was explained upfront",
     "The staff even followed up to check on my progress",
-    "The whole process was hassle-free and well organised"
+    "The whole process was hassle-free and well organised",
+    "The doctor explained the cause of my problem, not just the treatment",
+    "They use modern equipment and the facility is well kept",
+    "I never felt rushed and all my doubts were cleared",
+    "The treatment was gentle and I was comfortable throughout",
+    "The team is friendly and genuinely caring",
+    "Costs were transparent with no hidden charges",
+    "Appointments run on time, which I really appreciated",
+    "The aftercare instructions were clear and easy to follow",
+    "Good hygiene and a calm, welcoming environment",
+    "The doctor's advice was practical and easy to follow at home"
   ];
   var closings5 = [
     "Highly recommend V3 Derma Clinic to anyone in Champapet looking for a good dermatologist.",
@@ -270,7 +299,13 @@ function generateReview() {
     "This is my go-to dermatology clinic in Champapet now.",
     "Would absolutely recommend to family and friends.",
     "Truly grateful for the care I received here. Highly recommended.",
-    "One of the best skin and hair clinics I've visited in Hyderabad. Thank you!"
+    "One of the best skin and hair clinics I've visited in Hyderabad. Thank you!",
+    "Highly recommended — you're in safe, expert hands here.",
+    "I'll definitely be recommending V3 Derma Clinic to everyone I know.",
+    "Five stars well deserved. Thank you, " + doctor + "!",
+    "If you need a dermatologist in Champapet, don't think twice.",
+    "Genuinely impressed and will be coming back for sure.",
+    "Thank you " + doctor + " for the wonderful care and results."
   ];
   var closings4 = [
     "Would recommend V3 Derma Clinic for skin and hair concerns.",
@@ -278,22 +313,30 @@ function generateReview() {
     "Happy with the visit and I'd go back again.",
     "Worth a visit if you have skin or hair issues in Champapet.",
     "Overall a positive experience and I'd recommend it.",
-    "Satisfied with the care and would consider coming back."
+    "Satisfied with the care and would consider coming back.",
+    "A reliable clinic for skin and hair concerns in Champapet.",
+    "Would recommend booking a consultation here.",
+    "Decent results and a helpful, professional team.",
+    "Glad I visited and would return if needed."
   ];
 
   var opening = topRated ? pick(openings5, 'open') : pick(openings4, 'open');
   var closing = topRated ? pick(closings5, 'close') : pick(closings4, 'close');
 
-  var parts = [opening, experience + ".", pick(details, 'd1') + "."];
-  // ~40% of the time add a second, different detail for more natural variation
-  if (Math.random() < 0.4) {
-    var d2;
-    var guard = 0;
-    do { d2 = pick(details, 'd2'); guard++; } while (d2 + "." === parts[2] && guard < 12);
-    parts.push(d2 + ".");
+  // Build the middle: chosen experience + 1–2 different detail sentences
+  var middle = [experience + ".", pick(details, 'd1') + "."];
+  if (Math.random() < 0.7) {
+    var d2, guard = 0;
+    do { d2 = pick(details, 'd2') + "."; guard++; } while (middle.indexOf(d2) !== -1 && guard < 15);
+    if (middle.indexOf(d2) === -1) middle.push(d2);
   }
-  parts.push(closing);
+  // Shuffle the middle sentences (Fisher–Yates) so the structure differs every time
+  for (var i = middle.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = middle[i]; middle[i] = middle[j]; middle[j] = tmp;
+  }
 
+  var parts = [opening].concat(middle).concat([closing]);
   document.getElementById('reviewText').value = parts.join(" ");
 }
 
