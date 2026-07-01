@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Share Your Experience | V3 Derma Clinic – Leave a Google Review</title>
-<meta name="description" content="Loved your visit to V3 Derma Clinic, Champapet? Build a quick review draft and share your genuine experience with Dr. O Lakshmi Jhansi on Google.">
+<meta name="description" content="Loved your visit to V3 Derma Clinic, Champapet? Share your honest experience with Dr. O Lakshmi Jhansi on Google — in your own words.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="V3 Derma Clinic">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="V3 Derma Clinic">
 <meta property="og:locale" content="en_IN">
 <meta property="og:title" content="Share Your Experience | V3 Derma Clinic">
-<meta property="og:description" content="Build a quick review draft and share your genuine experience on Google.">
+<meta property="og:description" content="Share your honest experience with Dr. O Lakshmi Jhansi on Google — in your own words.">
 <meta property="og:url" content="https://v3dermaclinic.com/review.html">
 <meta property="og:image" content="https://v3dermaclinic.com/images/v3logo.png">
 
@@ -57,19 +57,12 @@
   <p>Your honest feedback helps other patients and helps us improve</p>
 </section>
 
-<!-- Review Builder -->
+<!-- Review Helper -->
 <section class="section">
   <div class="review-builder">
-    <p class="review-intro">Thank you for visiting <span class="brand-v3">V3</span> <span class="brand-derma">Derma Clinic</span>. Use the options below to build a quick draft, then share it in your own words on Google.</p>
+    <p class="review-intro">Thank you for visiting <span class="brand-v3">V3</span> <span class="brand-derma">Derma Clinic</span>. Pick a couple of options for a quick starting point — then please put it in <strong>your own words</strong> before posting on Google.</p>
 
-    <form class="contact-form" onsubmit="return false;">
-      <div class="form-group">
-        <label for="doctor">Doctor Consulted</label>
-        <select id="doctor">
-          <option>Dr. O Lakshmi Jhansi</option>
-        </select>
-      </div>
-
+    <div class="contact-form">
       <div class="form-group">
         <label for="treatment">Treatment Taken</label>
         <select id="treatment">
@@ -96,61 +89,56 @@
       </div>
 
       <div class="form-group">
-        <label for="location">Clinic Location</label>
-        <select id="location">
-          <option>V3 Derma Clinic, Champapet, Hyderabad</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="experience">Your Experience</label>
+        <label for="experience">What stood out to you?</label>
         <select id="experience">
-          <option>The doctor took time to understand my concern and explained everything clearly</option>
-          <option>I'm really happy with the improvement in my skin</option>
-          <option>I noticed a clear difference after just a few sessions</option>
-          <option>The consultation was professional and the staff were warm and friendly</option>
-          <option>The clinic is clean, hygienic and well maintained</option>
-          <option>She recommended only what I actually needed, with no unnecessary treatments</option>
-          <option>The treatment was comfortable and the results came faster than I expected</option>
-          <option>My hair fall has reduced and I can see new growth</option>
-          <option>My skin looks clearer and brighter than before</option>
-          <option>Pricing was reasonable and everything was explained upfront</option>
-          <option>The doctor was honest and never pushed unnecessary products</option>
-          <option>My acne has cleared up and my confidence is back</option>
-          <option>The whole team made me feel at ease throughout</option>
-          <option>I finally found a dermatologist I can trust</option>
-          <option>The results have been even better than I hoped for</option>
-          <option>My skin looks healthier and natural, not overdone</option>
-          <option>Booking was easy and there was barely any waiting</option>
-          <option>The follow-up care and advice were excellent</option>
-          <option>The doctor patiently answered every question I had</option>
-          <option>Genuinely effective treatment — worth every rupee</option>
+          <option>the doctor explained everything clearly</option>
+          <option>my skin has improved a lot</option>
+          <option>saw a difference in just a few sessions</option>
+          <option>friendly staff and a professional consultation</option>
+          <option>the clinic is clean and well kept</option>
+          <option>no unnecessary treatments were suggested</option>
+          <option>the treatment was comfortable and quick</option>
+          <option>my hair fall has come down</option>
+          <option>my skin looks clearer and brighter</option>
+          <option>fair pricing, all explained upfront</option>
+          <option>honest advice, no pushing products</option>
+          <option>my acne has cleared up</option>
+          <option>the team made me feel comfortable</option>
+          <option>finally a dermatologist I can trust</option>
+          <option>the results were better than I hoped</option>
+          <option>natural-looking results</option>
+          <option>easy booking and barely any wait</option>
+          <option>great follow-up and advice</option>
+          <option>she answered all my questions</option>
+          <option>it genuinely worked and was worth it</option>
         </select>
       </div>
 
       <div class="form-group">
         <label for="rating">Suggested Star Rating</label>
         <select id="rating">
-          <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐ Excellent</option>
-          <option value="⭐⭐⭐⭐">⭐⭐⭐⭐ Good</option>
+          <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+          <option value="4">⭐⭐⭐⭐ Good</option>
         </select>
-        <p class="field-note">This is only a suggestion — please rate honestly. Your rating is set on Google, not here.</p>
+        <p class="field-note">Please rate honestly — you'll set the actual star rating on Google, not here.</p>
       </div>
 
-      <button type="button" class="btn form-btn" onclick="generateReview()">✨ Generate Review Draft</button>
+      <button type="button" class="btn form-btn" onclick="suggestReview()">✍️ Suggest a starting point</button>
 
       <div class="form-group">
-        <label for="reviewText">Your Review Draft <span style="font-weight:400;color:var(--text-light)">(click Generate again for a different version — then edit freely to make it your own)</span></label>
-        <textarea id="reviewText" rows="6" placeholder="Click &quot;Generate Review Draft&quot; above, then edit the text to match your real experience..."></textarea>
+        <label for="reviewText">Your review <span style="font-weight:400;color:var(--text-light)">(keep it short and in your own words — copied-sounding reviews can be removed by Google)</span></label>
+        <textarea id="reviewText" rows="4" placeholder="A line or two in your own words — what you came in for and how it went with Dr. O Lakshmi Jhansi."></textarea>
       </div>
 
       <div class="review-actions">
-        <button type="button" class="btn secondary-btn" onclick="copyReview()">📋 Copy Draft</button>
+        <button type="button" class="btn secondary-btn" onclick="copyReview()">📋 Copy My Review</button>
         <button type="button" class="btn" onclick="goToGoogle()">Continue to Google Review →</button>
       </div>
 
-      <p class="compliance-note">ℹ️ Google does not allow auto-filled reviews. Copy your draft (or simply write in your own words) and paste it on the Google review screen. Reviews must be genuine and posted by you.</p>
-    </form>
+      <div class="compliance-note">
+        <strong>Please make it your own.</strong> The suggestion is just a starting point — change a few words, add something from your own visit, and post it from your own Google account. Genuine, personal reviews are the ones that stay up; Google may remove reviews that look copied or automated. Your star rating is set on the Google screen.
+      </div>
+    </div>
   </div>
 </section>
 
@@ -216,7 +204,7 @@
 <script>
 var GOOGLE_REVIEW_URL = "https://g.page/r/CRl_0iqeUH9pEBM/review";
 
-// Remember the last index chosen per pool so we never repeat the same line back-to-back
+// avoid repeating the same line back-to-back
 var lastPick = {};
 function pick(arr, key) {
   if (arr.length < 2) return arr[0];
@@ -225,124 +213,85 @@ function pick(arr, key) {
   lastPick[key] = i;
   return arr[i];
 }
+function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
-function generateReview() {
-  var doctor = document.getElementById('doctor').value;
-  var t = document.getElementById('treatment').value.toLowerCase().replace(' / ', '/');
-  var location = document.getElementById('location').value;
-  var experience = document.getElementById('experience').value;
-  var rating = document.getElementById('rating').value;
-  var topRated = rating.indexOf('⭐⭐⭐⭐⭐') === 0; // 5-star tone vs 4-star tone
+function suggestReview() {
+  var t = document.getElementById('treatment').value.toLowerCase().replace(' / ', '/').replace(' treatment', '');
+  var experience = document.getElementById('experience').value; // short lowercase fragment
+  var five = document.getElementById('rating').value === '5';
 
+  // Short, casual, real-patient wording (a starting point, not a finished review)
   var openings5 = [
-    "I had a really good experience at " + location + ". I went to " + doctor + " for my " + t + " and I'm genuinely happy with the results.",
-    "Visited V3 Derma Clinic in Champapet for my " + t + ". " + doctor + " was excellent and I'm very satisfied with how it turned out.",
-    "So glad I chose V3 Derma Clinic for my " + t + ". " + doctor + " really knows her work and made me feel comfortable throughout.",
-    "I consulted " + doctor + " for my " + t + ", and honestly the whole experience was smooth, professional and reassuring.",
-    "Took my " + t + " at V3 Derma Clinic and the results have been even better than I expected.",
-    "One of the best decisions I made was visiting " + doctor + " for my " + t + ". Really impressed with the care here.",
-    "I'd been struggling with my " + t + " for a while, and " + doctor + " at V3 Derma Clinic finally sorted it out for me.",
-    "Came to V3 Derma Clinic for my " + t + " on a friend's recommendation, and I'm so glad I did.",
-    "Excellent clinic. I went to " + doctor + " for my " + t + " and the difference is clearly visible.",
-    "My experience with " + doctor + " for my " + t + " was fantastic from start to finish.",
-    "Really happy I found V3 Derma Clinic. " + doctor + " handled my " + t + " with so much care and patience.",
-    "Got my " + t + " done at V3 Derma Clinic, Champapet, and I couldn't have asked for better results.",
-    "Thank you " + doctor + " and team! My " + t + " has improved so much and I feel far more confident now.",
-    "Such a professional and caring clinic — my " + t + " was handled really well by " + doctor + ".",
-    "I'm so pleased with my " + t + " results at V3 Derma Clinic. Skilled, friendly and honest team.",
-    "Chose V3 Derma Clinic for my " + t + " after a lot of research, and it was absolutely the right decision.",
-    "From consultation to treatment for my " + t + ", everything was top class at V3 Derma Clinic.",
-    "Genuinely the best dermatology experience I've had — " + doctor + " treated my " + t + " brilliantly.",
-    "After trying other places for my " + t + ", I finally got real results with " + doctor + " here."
+    "Really happy with my " + t + " — " + doctor() + " is great.",
+    doctor() + " sorted out my " + t + " and I couldn't be happier.",
+    "Great experience getting my " + t + " done here.",
+    "So glad I came here for my " + t + ".",
+    "Best decision getting my " + t + " treated by " + doctor() + ".",
+    "Very happy with my " + t + " results.",
+    "Went for my " + t + " and it actually worked.",
+    doctor() + " is brilliant — my " + t + " has improved so much.",
+    "Got my " + t + " done and the results are great.",
+    "Honestly the best clinic in Champapet for " + t + ".",
+    "Lovely clinic, and my " + t + " has improved a lot.",
+    "Thank you " + doctor() + " for sorting out my " + t + "!"
   ];
   var openings4 = [
-    "Had a good experience at V3 Derma Clinic. I visited " + doctor + " for my " + t + " and I'm happy with the results so far.",
-    "Went to V3 Derma Clinic in Champapet for my " + t + ". " + doctor + " was professional and the treatment is working well for me.",
-    "Consulted " + doctor + " for my " + t + " — overall a good experience and I can already see an improvement.",
-    "Visited for my " + t + " and came away satisfied. " + doctor + " explained everything clearly.",
-    "Decent experience at V3 Derma Clinic for my " + t + ". " + doctor + " was helpful and the results are coming along.",
-    "Got my " + t + " done here and I'm fairly happy with how it's progressing.",
-    "Reasonably good experience for my " + t + " — " + doctor + " was knowledgeable and clear.",
-    "My " + t + " is improving steadily after starting treatment at V3 Derma Clinic."
+    "Good experience with my " + t + ".",
+    "Happy with my " + t + " so far.",
+    "Decent clinic — my " + t + " is improving.",
+    "Went for my " + t + " and it's coming along.",
+    doctor() + " was helpful with my " + t + "."
   ];
   var details = [
-    "The clinic is clean and the staff are polite",
-    "Getting an appointment was easy and there wasn't much waiting",
-    "She explained the treatment plan and what to expect at every step",
-    "There was no unnecessary upselling, which I really appreciated",
-    "It's easy to find, right beside HDFC Bank in Champapet",
-    "I felt comfortable and well looked after the whole time",
-    "The doctor was patient and answered all of my questions",
-    "Hygiene and cleanliness at the clinic were really good",
-    "The consultation didn't feel rushed at all",
-    "Pricing was reasonable and everything was explained upfront",
-    "The staff even followed up to check on my progress",
-    "The whole process was hassle-free and well organised",
-    "The doctor explained the cause of my problem, not just the treatment",
-    "They use modern equipment and the facility is well kept",
-    "I never felt rushed and all my doubts were cleared",
-    "The treatment was gentle and I was comfortable throughout",
-    "The team is friendly and genuinely caring",
-    "Costs were transparent with no hidden charges",
-    "Appointments run on time, which I really appreciated",
-    "The aftercare instructions were clear and easy to follow",
-    "Good hygiene and a calm, welcoming environment",
-    "The doctor's advice was practical and easy to follow at home"
+    "clean clinic and friendly staff",
+    "hardly any waiting",
+    "she explained everything clearly",
+    "no unnecessary treatments pushed",
+    "easy to find near HDFC Bank",
+    "felt comfortable throughout",
+    "fair pricing with no surprises",
+    "she answered all my questions",
+    "calm and tidy setup",
+    "genuinely caring team",
+    "quick and hassle-free",
+    "good, modern equipment"
   ];
   var closings5 = [
-    "Highly recommend V3 Derma Clinic to anyone in Champapet looking for a good dermatologist.",
-    "Would definitely recommend " + doctor + ". Thank you so much!",
-    "If you're looking for a skin or hair clinic near Champapet, this is the place to go.",
-    "Very happy overall and will be going back. Thank you, V3 Derma Clinic!",
-    "Strongly recommended for anyone with skin or hair concerns in the Champapet area.",
-    "Couldn't be happier with the results. Thank you, " + doctor + "!",
-    "This is my go-to dermatology clinic in Champapet now.",
-    "Would absolutely recommend to family and friends.",
-    "Truly grateful for the care I received here. Highly recommended.",
-    "One of the best skin and hair clinics I've visited in Hyderabad. Thank you!",
-    "Highly recommended — you're in safe, expert hands here.",
-    "I'll definitely be recommending V3 Derma Clinic to everyone I know.",
-    "Five stars well deserved. Thank you, " + doctor + "!",
-    "If you need a dermatologist in Champapet, don't think twice.",
-    "Genuinely impressed and will be coming back for sure.",
-    "Thank you " + doctor + " for the wonderful care and results."
+    "Highly recommend!",
+    "Would 100% recommend " + doctor() + ".",
+    "My go-to clinic now.",
+    "Five stars, well deserved.",
+    "Definitely coming back.",
+    "Thank you so much!",
+    "Can't recommend enough.",
+    "Highly recommended."
   ];
   var closings4 = [
-    "Would recommend V3 Derma Clinic for skin and hair concerns.",
-    "Good experience overall and I'd recommend giving them a try.",
-    "Happy with the visit and I'd go back again.",
-    "Worth a visit if you have skin or hair issues in Champapet.",
-    "Overall a positive experience and I'd recommend it.",
-    "Satisfied with the care and would consider coming back.",
-    "A reliable clinic for skin and hair concerns in Champapet.",
-    "Would recommend booking a consultation here.",
-    "Decent results and a helpful, professional team.",
-    "Glad I visited and would return if needed."
+    "Would recommend.",
+    "Would go back.",
+    "Worth a visit.",
+    "Happy overall.",
+    "Recommend giving them a try."
   ];
 
-  var opening = topRated ? pick(openings5, 'open') : pick(openings4, 'open');
-  var closing = topRated ? pick(closings5, 'close') : pick(closings4, 'close');
+  var parts = [ five ? pick(openings5, 'open') : pick(openings4, 'open') ];
 
-  // Build the middle: chosen experience + 1–2 different detail sentences
-  var middle = [experience + ".", pick(details, 'd1') + "."];
-  if (Math.random() < 0.7) {
-    var d2, guard = 0;
-    do { d2 = pick(details, 'd2') + "."; guard++; } while (middle.indexOf(d2) !== -1 && guard < 15);
-    if (middle.indexOf(d2) === -1) middle.push(d2);
-  }
-  // Shuffle the middle sentences (Fisher–Yates) so the structure differs every time
-  for (var i = middle.length - 1; i > 0; i--) {
-    var j = Math.floor(Math.random() * (i + 1));
-    var tmp = middle[i]; middle[i] = middle[j]; middle[j] = tmp;
-  }
+  // add ONE short middle line (either the highlight or a detail) — keeps it brief
+  var r = Math.random();
+  if (r < 0.45) parts.push(cap(experience) + ".");
+  else if (r < 0.8) parts.push(cap(pick(details, 'd1')) + ".");
 
-  var parts = [opening].concat(middle).concat([closing]);
+  // usually finish with a short closing
+  if (Math.random() < 0.7) parts.push(five ? pick(closings5, 'close') : pick(closings4, 'close'));
+
   document.getElementById('reviewText').value = parts.join(" ");
 }
 
+function doctor() { return "Dr. O Lakshmi Jhansi"; }
+
 function copyReview() {
   var ta = document.getElementById('reviewText');
-  if (!ta.value.trim()) { generateReview(); }
+  if (!ta.value.trim()) { alert('Please write or generate a short review first, then make it your own before copying.'); ta.focus(); return; }
   ta.select();
   ta.setSelectionRange(0, 99999);
   if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -350,13 +299,12 @@ function copyReview() {
   } else {
     document.execCommand('copy');
   }
-  alert('Review draft copied! Paste it on the Google review screen.');
+  alert('Copied! Paste it on the Google review screen — feel free to reword it in your own voice.');
 }
 
 function goToGoogle() {
   var ta = document.getElementById('reviewText');
-  if (!ta.value.trim()) { generateReview(); }
-  if (navigator.clipboard && navigator.clipboard.writeText) {
+  if (ta.value.trim() && navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(ta.value);
   }
   window.open(GOOGLE_REVIEW_URL, '_blank');
