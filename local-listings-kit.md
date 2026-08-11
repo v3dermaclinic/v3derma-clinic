@@ -11,7 +11,7 @@ Copy-paste content for Google Business Profile, Practo, JustDial, Lybrate, Skedo
 - **Address:** 1st Floor, Shobha Enclave, Green Park Colony, Beside HDFC Bank, Champapet Road, Hyderabad, Telangana 500079
 - **Phone:** 088974 89595  (or +91 8897489595)
 - **WhatsApp:** 8897489595
-- **Email:** customer-care@v3dermaclinic.com
+- **Email:** v3dermaclinic@gmail.com
 - **Website:** https://v3dermaclinic.com
 - **Hours:** Mon–Sat 5:00 PM – 9:00 PM · Sun 3:00 PM – 6:00 PM
 - **Doctor:** Dr. O Lakshmi Jhansi — Consultant Dermatologist, Cosmetologist & Trichologist
