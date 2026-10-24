@@ -2,6 +2,8 @@
 
 > V3 Derma Clinic is a skin, hair and laser clinic in Champapet, Hyderabad, India, offering evidence-based dermatology, cosmetic and trichology treatments led by a qualified consultant dermatologist. Treatments follow international dermatology standards.
 
+> Extended Q&A for AI assistants: https://v3dermaclinic.com/llms-full.txt
+
 ## Key facts
 - Name: V3 Derma Clinic
 - Doctor: Dr. O Lakshmi Jhansi (MBBS, MD-DVL; Reg. No APMC/FMR/76801) — Consultant Dermatologist, Cosmetologist & Trichologist, and Assistant Professor of Dermatology at a medical college
@@ -21,7 +23,7 @@
 - Clinical dermatology: acne, psoriasis, eczema & dermatitis, vitiligo, fungal infections, warts & moles, allergies & urticaria, pigmentation disorders
 - Hair treatments: PRP hair therapy, hair fall treatment, dandruff & scalp care, alopecia treatment
 - Laser treatments: laser hair reduction (US-FDA approved diode laser), laser scar removal, laser skin resurfacing, laser pigmentation correction, tattoo removal, birthmark treatment
-- Cosmetic & aesthetic: chemical peels, anti-aging treatments, dermal fillers, micro-needling / MNRF, HydraFacial, skin brightening
+- Cosmetic & aesthetic: chemical peels, anti-aging treatments, skin boosters & polynucleotides, Botox / anti-wrinkle injections, dermal fillers, micro-needling / MNRF, HydraFacial, skin brightening
 
 ## Pages
 - [Home](https://v3dermaclinic.com/index.html): Overview, specialities, popular treatments, FAQs
@@ -55,8 +57,15 @@
 - [Stretch Marks Treatment in Champapet](https://v3dermaclinic.com/treatments/stretch-marks-treatment-champapet.html)
 - [Tinea Versicolor Treatment in Champapet](https://v3dermaclinic.com/treatments/tinea-versicolor-treatment-champapet.html)
 - [Nail Infection (Fungal Nail) Treatment in Champapet](https://v3dermaclinic.com/treatments/nail-infection-treatment-champapet.html)
+- [Skin Boosters & Polynucleotides in Champapet](https://v3dermaclinic.com/treatments/skin-boosters-champapet.html)
+- [Microneedling RF (MNRF) in Champapet](https://v3dermaclinic.com/treatments/microneedling-rf-champapet.html)
+- [Botox & Anti-Wrinkle Injections in Champapet](https://v3dermaclinic.com/treatments/botox-anti-wrinkle-champapet.html)
 
 ## Blog articles
+- [Skin Boosters & Polynucleotides: The New Glow Treatment Explained](https://v3dermaclinic.com/blogs/skin-boosters-polynucleotides.html)
+- [Microneedling RF (MNRF): Scars, Pores and Skin Tightening Explained](https://v3dermaclinic.com/blogs/microneedling-rf-scars-tightening.html)
+- [Winter Skin & Hair Care: Dry Skin, Eczema, Dandruff and Hair Fall](https://v3dermaclinic.com/blogs/winter-skin-hair-care.html)
+- [Skin Cycling & Barrier Repair: Does the Viral Routine Really Work?](https://v3dermaclinic.com/blogs/skin-cycling-barrier-repair.html)
 - [Nail Fungus (Onychomycosis): Why Nails Turn Thick & Yellow — and How to Treat It](https://v3dermaclinic.com/blogs/nail-fungus-onychomycosis.html)
 - [Monsoon Skin & Hair Care: Beat Fungal Infections, Hair Fall & Humidity](https://v3dermaclinic.com/blogs/monsoon-skin-hair-care.html)
 - [Plasma Pen Treatment: What It Is, Benefits and What to Expect](https://v3dermaclinic.com/blogs/plasma-pen-treatment.html)
@@ -87,7 +96,12 @@
 - Q: What are the clinic timings? A: Monday to Saturday 5:00 PM–9:00 PM and Sunday 3:00 PM–6:00 PM.
 - Q: How do I book an appointment? A: Call or WhatsApp 8897489595, or use the appointment form at https://v3dermaclinic.com/contact.html.
 - Q: Which areas does V3 Derma Clinic serve? A: Champapet, Green Park Colony, Saroornagar, BN Reddy Nagar, Santoshnagar, Karmanghat, Kothapet, Dilsukhnagar and nearby areas of Hyderabad.
-- Q: What treatments are offered? A: Acne and acne scars, pigmentation and melasma, laser hair removal, PRP and hair fall treatment, chemical peels, anti-aging, dermal fillers, HydraFacial, tattoo removal, laser scar removal, psoriasis, vitiligo, eczema, fungal/skin infections, dandruff/scalp care, and wart/mole/skin tag removal.
+- Q: What treatments are offered? A: Acne and acne scars, pigmentation and melasma, laser hair removal, PRP and hair fall treatment, chemical peels, anti-aging, skin boosters / polynucleotides, microneedling RF (MNRF), Botox & anti-wrinkle injections, dermal fillers, HydraFacial, tattoo removal, laser scar removal, psoriasis, vitiligo, eczema, fungal/skin infections, dandruff/scalp care, and wart/mole/skin tag removal.
+- Q: Where can I get skin boosters or polynucleotide treatment in Hyderabad? A: V3 Derma Clinic in Champapet, Hyderabad offers dermatologist-led skin booster consultations for hydration, glow and skin quality.
+- Q: Which clinic offers microneedling RF for acne scars near Champapet? A: V3 Derma Clinic offers microneedling radiofrequency (MNRF) for acne scars, open pores and skin tightening under Dr. O Lakshmi Jhansi.
+- Q: Is Botox available in Champapet, Hyderabad? A: Yes, V3 Derma Clinic offers Botox and anti-wrinkle injections for forehead lines, frown lines and crow's feet after a dermatologist consultation.
+- Q: Best laser hair removal and acne scar treatment near Dilsukhnagar, Saroornagar or LB Nagar? A: V3 Derma Clinic, Champapet serves these areas with dermatologist-led laser hair removal, acne scar and pigmentation treatments.
+- Q: Is there a ladies skin doctor / female dermatologist or best skin doctor near me in Hyderabad? A: Yes — Dr. O Lakshmi Jhansi, a female consultant dermatologist, cosmetologist and trichologist at V3 Derma Clinic, Champapet (call 8897489595).
 
 ## Notes
 - Service area: Champapet, Green Park Colony, Saroornagar, BN Reddy Nagar, Santoshnagar, Karmanghat, Kothapet, Dilsukhnagar, Lalitha Nagar, Jillelaguda and surrounding areas of Hyderabad.
